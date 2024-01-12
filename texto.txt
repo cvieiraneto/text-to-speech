@@ -1,0 +1,15 @@
+Introdução aos Transformers
+Transformers são uma arquitetura de modelo de aprendizado de máquina introduzida em um artigo de 2017 chamado "Attention is All You Need". Eles são projetados para lidar com dados sequenciais, com a vantagem de que eles não requerem que a sequência seja ordenada, o que os torna uma melhoria em relação aos modelos de RNN e LSTM.
+
+Componentes principais
+Os Transformers consistem em duas partes principais: o codificador e o decodificador.
+
+Codificador: O codificador recebe a entrada e a transforma em uma representação compreensível para o decodificador. Ele faz isso através de uma série de camadas de autoatenção e redes de feedforward.
+
+Decodificador: O decodificador pega a saída do codificador e a transforma na saída final. Ele também usa camadas de autoatenção, bem como uma nova camada de atenção que ajuda a focar na saída do codificador.
+
+Mecanismo de Atenção
+A característica definidora dos Transformers é o mecanismo de atenção. A atenção permite que o modelo se concentre em diferentes partes da entrada ao produzir a saída, em vez de tratar todas as partes da entrada igualmente.
+
+Aplicações
+Os Transformers são usados em uma variedade de aplicações de NLP, incluindo tradução automática, geração de texto e compreensão de texto. Eles são a base para modelos como o BERT, GPT-2 e GPT-3.
